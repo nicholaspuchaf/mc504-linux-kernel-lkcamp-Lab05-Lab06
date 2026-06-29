@@ -1,0 +1,1 @@
+savedcmd_lab5_char.ko := ld -r -m elf_x86_64 --fatal-warnings -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T /home/nicholaspucharelli/Unicamp/lab5/linux/scripts/module.lds -o lab5_char.ko lab5_char.o lab5_char.mod.o .module-common.o

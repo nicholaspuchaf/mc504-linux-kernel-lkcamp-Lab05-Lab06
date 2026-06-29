@@ -1,0 +1,1 @@
+savedcmd_Module.symvers :=  /home/nicholaspucharelli/Unicamp/lab5/linux/scripts/mod/modpost -M          -o Module.symvers -T modules.order -i /home/nicholaspucharelli/Unicamp/lab5/linux/Module.symvers -e 

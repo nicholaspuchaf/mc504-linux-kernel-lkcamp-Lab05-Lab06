@@ -1,0 +1,18 @@
+1. Por favor traduza a seguinte página em inglês, explicando detelhadamente conceitos que você julgar difícies ou complexos: https://docs.lkcamp.dev/intro_tutorials/boot/
+
+2. Por favor traduza a seguinte página em inglês, explicando detelhadamente conceitos que você julgar difícies ou complexos: https://docs.lkcamp.dev/intro_tutorials/syscalls/
+
+3. Por favor traduza a seguinte página em inglês, explicando detelhadamente conceitos que você julgar difícies ou complexos: https://docs.lkcamp.dev/intro_tutorials/device_drivers/
+
+Por favor me ajude a entender porque esse erro do gcc ocorreu ?
+  /bin/sh: gcc: not found
+  /usr/bin/gcc: File not found
+
+Por favor me ajude a entender porque não estou conseguindo acessar essa pasta temp
+  qemu-system-x86_64: Could not open temporary overlay file in /var/tmp: Read-only file system
+  qemu-system-x86_64: failed to create temporary file: Read-only file system
+
+Por favor me ajude a entender o que pode ter causado esse erro
+  kernel/lab5_syscalls.c: error: function declaration isn’t a prototype
+  kernel/lab5_syscalls.c: error: function 'get_current' is initialized like a variable
+  kernel/lab5_syscalls.c: error: lvalue required as unary '&' operand

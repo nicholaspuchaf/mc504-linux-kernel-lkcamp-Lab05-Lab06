@@ -1,0 +1,9 @@
+1. Por favor traduza a seguinte página em inglês, explicando detelhadamente conceitos que você julgar difícies ou complexos: https://docs.lkcamp.dev/intro_tutorials/boot/
+
+2. Por favor traduza a seguinte página em inglês, explicando detelhadamente conceitos que você julgar difícies ou complexos: https://docs.lkcamp.dev/intro_tutorials/syscalls/
+
+3. Por favor traduza a seguinte página em inglês, explicando detelhadamente conceitos que você julgar difícies ou complexos: https://docs.lkcamp.dev/intro_tutorials/device_drivers/
+
+4. Por favor me explique o que é ioctl, se baseie por favor nesse link: https://www.ibm.com/docs/pt-br/aix/7.3.0?topic=i-ioctl-socket-control-operations ou sugira outros que julgar úties.
+
+5. Além de ioctl mê dê outras alternativas mais modernas de mecanismos de configuração de drivers e também me dê referências para procurar mais.

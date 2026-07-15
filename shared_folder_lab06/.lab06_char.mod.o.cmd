@@ -1,8 +1,9 @@
-savedcmd_lab5_char.o := gcc -Wp,-MMD,./.lab5_char.o.d -nostdinc -I/home/nicholaspucharelli/Unicamp/lab5/linux/arch/x86/include -I/home/nicholaspucharelli/Unicamp/lab5/linux/arch/x86/include/generated -I/home/nicholaspucharelli/Unicamp/lab5/linux/include -I/home/nicholaspucharelli/Unicamp/lab5/linux/include -I/home/nicholaspucharelli/Unicamp/lab5/linux/arch/x86/include/uapi -I/home/nicholaspucharelli/Unicamp/lab5/linux/arch/x86/include/generated/uapi -I/home/nicholaspucharelli/Unicamp/lab5/linux/include/uapi -I/home/nicholaspucharelli/Unicamp/lab5/linux/include/generated/uapi -include /home/nicholaspucharelli/Unicamp/lab5/linux/include/linux/compiler-version.h -include /home/nicholaspucharelli/Unicamp/lab5/linux/include/linux/kconfig.h -include /home/nicholaspucharelli/Unicamp/lab5/linux/include/linux/compiler_types.h -D__KERNEL__ -Werror -fshort-wchar -funsigned-char -fno-common -fno-PIE -fno-strict-aliasing -std=gnu11 -fms-extensions -mno-sse -mno-mmx -mno-sse2 -mno-3dnow -mno-avx -mno-sse4a -fcf-protection=branch -fno-jump-tables -m64 -falign-jumps=1 -falign-loops=1 -mno-80387 -mno-fp-ret-in-387 -mpreferred-stack-boundary=3 -mskip-rax-setup -march=x86-64 -mtune=generic -mno-red-zone -mcmodel=kernel -mstack-protector-guard-reg=gs -mstack-protector-guard-symbol=__ref_stack_chk_guard -Wno-sign-compare -fno-asynchronous-unwind-tables -mindirect-branch=thunk-extern -mindirect-branch-register -mindirect-branch-cs-prefix -mfunction-return=thunk-extern -fno-jump-tables -fpatchable-function-entry=16,16 -fno-delete-null-pointer-checks -O2 -fno-allow-store-data-races -fstack-protector-strong -fomit-frame-pointer -ftrivial-auto-var-init=zero -fno-stack-clash-protection -falign-functions=16 -fstrict-flex-arrays=3 -fno-strict-overflow -fno-stack-check -fconserve-stack -fno-builtin-wcslen -Wall -Wextra -Wundef -Werror=implicit-function-declaration -Werror=implicit-int -Werror=return-type -Werror=strict-prototypes -Wno-format-security -Wno-trigraphs -Wno-frame-address -Wno-address-of-packed-member -Wmissing-declarations -Wmissing-prototypes -Wframe-larger-than=2048 -Wno-main -Wno-type-limits -Wno-dangling-pointer -Wvla-larger-than=1 -Wno-pointer-sign -Wcast-function-type -Wno-array-bounds -Wno-stringop-overflow -Wno-alloc-size-larger-than -Wimplicit-fallthrough=5 -Werror=date-time -Werror=incompatible-pointer-types -Werror=designated-init -Wenum-conversion -Wunused -Wno-unused-but-set-variable -Wno-unused-const-variable -Wno-packed-not-aligned -Wno-format-overflow -Wno-format-truncation -Wno-stringop-truncation -Wno-override-init -Wno-missing-field-initializers -Wno-shift-negative-value -Wno-maybe-uninitialized -Wno-sign-compare -Wno-unused-parameter  -DMODULE  -DKBUILD_BASENAME='"lab5_char"' -DKBUILD_MODNAME='"lab5_char"' -D__KBUILD_MODNAME=lab5_char -c -o lab5_char.o lab5_char.c   ; /home/nicholaspucharelli/Unicamp/lab5/linux/tools/objtool/objtool --hacks=jump_label --hacks=noinstr --hacks=skylake --ibt --prefix=16 --orc --retpoline --rethunk --static-call --uaccess  --link  --module lab5_char.o
+savedcmd_lab06_char.mod.o := gcc -Wp,-MMD,./.lab06_char.mod.o.d -nostdinc -I/home/nicholaspucharelli/Unicamp/lab5/linux/arch/x86/include -I/home/nicholaspucharelli/Unicamp/lab5/linux/arch/x86/include/generated -I/home/nicholaspucharelli/Unicamp/lab5/linux/include -I/home/nicholaspucharelli/Unicamp/lab5/linux/include -I/home/nicholaspucharelli/Unicamp/lab5/linux/arch/x86/include/uapi -I/home/nicholaspucharelli/Unicamp/lab5/linux/arch/x86/include/generated/uapi -I/home/nicholaspucharelli/Unicamp/lab5/linux/include/uapi -I/home/nicholaspucharelli/Unicamp/lab5/linux/include/generated/uapi -include /home/nicholaspucharelli/Unicamp/lab5/linux/include/linux/compiler-version.h -include /home/nicholaspucharelli/Unicamp/lab5/linux/include/linux/kconfig.h -include /home/nicholaspucharelli/Unicamp/lab5/linux/include/linux/compiler_types.h -D__KERNEL__ -Werror -fshort-wchar -funsigned-char -fno-common -fno-PIE -fno-strict-aliasing -std=gnu11 -fms-extensions -mno-sse -mno-mmx -mno-sse2 -mno-3dnow -mno-avx -mno-sse4a -fcf-protection=branch -fno-jump-tables -m64 -falign-jumps=1 -falign-loops=1 -mno-80387 -mno-fp-ret-in-387 -mpreferred-stack-boundary=3 -mskip-rax-setup -march=x86-64 -mtune=generic -mno-red-zone -mcmodel=kernel -mstack-protector-guard-reg=gs -mstack-protector-guard-symbol=__ref_stack_chk_guard -Wno-sign-compare -fno-asynchronous-unwind-tables -mindirect-branch=thunk-extern -mindirect-branch-register -mindirect-branch-cs-prefix -mfunction-return=thunk-extern -fno-jump-tables -fpatchable-function-entry=16,16 -fno-delete-null-pointer-checks -O2 -fno-allow-store-data-races -fstack-protector-strong -fomit-frame-pointer -ftrivial-auto-var-init=zero -fno-stack-clash-protection -falign-functions=16 -fstrict-flex-arrays=3 -fno-strict-overflow -fno-stack-check -fconserve-stack -fno-builtin-wcslen -Wall -Wextra -Wundef -Werror=implicit-function-declaration -Werror=implicit-int -Werror=return-type -Werror=strict-prototypes -Wno-format-security -Wno-trigraphs -Wno-frame-address -Wno-address-of-packed-member -Wmissing-declarations -Wmissing-prototypes -Wframe-larger-than=2048 -Wno-main -Wno-type-limits -Wno-dangling-pointer -Wvla-larger-than=1 -Wno-pointer-sign -Wcast-function-type -Wno-array-bounds -Wno-stringop-overflow -Wno-alloc-size-larger-than -Wimplicit-fallthrough=5 -Werror=date-time -Werror=incompatible-pointer-types -Werror=designated-init -Wenum-conversion -Wunused -Wno-unused-but-set-variable -Wno-unused-const-variable -Wno-packed-not-aligned -Wno-format-overflow -Wno-format-truncation -Wno-stringop-truncation -Wno-override-init -Wno-missing-field-initializers -Wno-shift-negative-value -Wno-maybe-uninitialized -Wno-sign-compare -Wno-unused-parameter  -DMODULE  -DKBUILD_BASENAME='"lab06_char.mod"' -DKBUILD_MODNAME='"lab06_char"' -D__KBUILD_MODNAME=lab06_char -c -o lab06_char.mod.o lab06_char.mod.c   ; /home/nicholaspucharelli/Unicamp/lab5/linux/tools/objtool/objtool --hacks=jump_label --hacks=noinstr --hacks=skylake --ibt --prefix=16 --orc --retpoline --rethunk --static-call --uaccess  --link  --module lab06_char.mod.o
 
-source_lab5_char.o := lab5_char.c
+source_lab06_char.mod.o := lab06_char.mod.c
 
-deps_lab5_char.o := \
+deps_lab06_char.mod.o := \
+    $(wildcard include/config/MODULE_UNLOAD) \
   /home/nicholaspucharelli/Unicamp/lab5/linux/include/linux/compiler-version.h \
     $(wildcard include/config/CC_VERSION_TEXT) \
   /home/nicholaspucharelli/Unicamp/lab5/linux/include/linux/kconfig.h \
@@ -42,10 +43,46 @@ deps_lab5_char.o := \
     $(wildcard include/config/CC_HAS_NAMED_AS) \
     $(wildcard include/config/USE_X86_SEG_SUPPORT) \
   /home/nicholaspucharelli/Unicamp/lab5/linux/include/asm-generic/percpu_types.h \
-  /home/nicholaspucharelli/Unicamp/lab5/linux/include/linux/cdev.h \
-  /home/nicholaspucharelli/Unicamp/lab5/linux/include/linux/kobject.h \
-    $(wildcard include/config/UEVENT_HELPER) \
-    $(wildcard include/config/DEBUG_KOBJECT_RELEASE) \
+  /home/nicholaspucharelli/Unicamp/lab5/linux/include/linux/module.h \
+    $(wildcard include/config/MODULES) \
+    $(wildcard include/config/SYSFS) \
+    $(wildcard include/config/MODULES_TREE_LOOKUP) \
+    $(wildcard include/config/LIVEPATCH) \
+    $(wildcard include/config/STACKTRACE_BUILD_ID) \
+    $(wildcard include/config/ARCH_USES_CFI_TRAPS) \
+    $(wildcard include/config/MODULE_SIG) \
+    $(wildcard include/config/GENERIC_BUG) \
+    $(wildcard include/config/KALLSYMS) \
+    $(wildcard include/config/TRACEPOINTS) \
+    $(wildcard include/config/TREE_SRCU) \
+    $(wildcard include/config/BPF_EVENTS) \
+    $(wildcard include/config/DEBUG_INFO_BTF_MODULES) \
+    $(wildcard include/config/JUMP_LABEL) \
+    $(wildcard include/config/TRACING) \
+    $(wildcard include/config/EVENT_TRACING) \
+    $(wildcard include/config/DYNAMIC_FTRACE) \
+    $(wildcard include/config/KPROBES) \
+    $(wildcard include/config/HAVE_STATIC_CALL_INLINE) \
+    $(wildcard include/config/KUNIT) \
+    $(wildcard include/config/PRINTK_INDEX) \
+    $(wildcard include/config/CONSTRUCTORS) \
+    $(wildcard include/config/FUNCTION_ERROR_INJECTION) \
+    $(wildcard include/config/DYNAMIC_DEBUG_CORE) \
+    $(wildcard include/config/MITIGATION_RETPOLINE) \
+  /home/nicholaspucharelli/Unicamp/lab5/linux/include/linux/list.h \
+    $(wildcard include/config/LIST_HARDENED) \
+    $(wildcard include/config/DEBUG_LIST) \
+  /home/nicholaspucharelli/Unicamp/lab5/linux/include/linux/container_of.h \
+  /home/nicholaspucharelli/Unicamp/lab5/linux/include/linux/build_bug.h \
+  /home/nicholaspucharelli/Unicamp/lab5/linux/include/linux/compiler.h \
+    $(wildcard include/config/TRACE_BRANCH_PROFILING) \
+    $(wildcard include/config/PROFILE_ALL_BRANCHES) \
+    $(wildcard include/config/OBJTOOL) \
+  /home/nicholaspucharelli/Unicamp/lab5/linux/arch/x86/include/generated/asm/rwonce.h \
+  /home/nicholaspucharelli/Unicamp/lab5/linux/include/asm-generic/rwonce.h \
+  /home/nicholaspucharelli/Unicamp/lab5/linux/include/linux/kasan-checks.h \
+    $(wildcard include/config/KASAN_GENERIC) \
+    $(wildcard include/config/KASAN_SW_TAGS) \
   /home/nicholaspucharelli/Unicamp/lab5/linux/include/linux/types.h \
     $(wildcard include/config/HAVE_UID16) \
     $(wildcard include/config/UID16) \
@@ -68,20 +105,6 @@ deps_lab5_char.o := \
     $(wildcard include/config/X86_32) \
   /home/nicholaspucharelli/Unicamp/lab5/linux/arch/x86/include/uapi/asm/posix_types_64.h \
   /home/nicholaspucharelli/Unicamp/lab5/linux/include/uapi/asm-generic/posix_types.h \
-  /home/nicholaspucharelli/Unicamp/lab5/linux/include/linux/list.h \
-    $(wildcard include/config/LIST_HARDENED) \
-    $(wildcard include/config/DEBUG_LIST) \
-  /home/nicholaspucharelli/Unicamp/lab5/linux/include/linux/container_of.h \
-  /home/nicholaspucharelli/Unicamp/lab5/linux/include/linux/build_bug.h \
-  /home/nicholaspucharelli/Unicamp/lab5/linux/include/linux/compiler.h \
-    $(wildcard include/config/TRACE_BRANCH_PROFILING) \
-    $(wildcard include/config/PROFILE_ALL_BRANCHES) \
-    $(wildcard include/config/OBJTOOL) \
-  /home/nicholaspucharelli/Unicamp/lab5/linux/arch/x86/include/generated/asm/rwonce.h \
-  /home/nicholaspucharelli/Unicamp/lab5/linux/include/asm-generic/rwonce.h \
-  /home/nicholaspucharelli/Unicamp/lab5/linux/include/linux/kasan-checks.h \
-    $(wildcard include/config/KASAN_GENERIC) \
-    $(wildcard include/config/KASAN_SW_TAGS) \
   /home/nicholaspucharelli/Unicamp/lab5/linux/include/linux/kcsan-checks.h \
     $(wildcard include/config/KCSAN_WEAK_MEMORY) \
     $(wildcard include/config/KCSAN_IGNORE_ATOMICS) \
@@ -104,18 +127,15 @@ deps_lab5_char.o := \
   /home/nicholaspucharelli/Unicamp/lab5/linux/include/linux/objtool_types.h \
   /home/nicholaspucharelli/Unicamp/lab5/linux/include/linux/annotate.h \
   /home/nicholaspucharelli/Unicamp/lab5/linux/arch/x86/include/asm/asm.h \
-    $(wildcard include/config/KPROBES) \
   /home/nicholaspucharelli/Unicamp/lab5/linux/arch/x86/include/asm/asm-offsets.h \
   /home/nicholaspucharelli/Unicamp/lab5/linux/include/generated/asm-offsets.h \
   /home/nicholaspucharelli/Unicamp/lab5/linux/arch/x86/include/asm/extable_fixup_types.h \
   /home/nicholaspucharelli/Unicamp/lab5/linux/arch/x86/include/asm/bug.h \
-    $(wildcard include/config/GENERIC_BUG) \
     $(wildcard include/config/DEBUG_BUGVERBOSE) \
     $(wildcard include/config/DEBUG_BUGVERBOSE_DETAILED) \
   /home/nicholaspucharelli/Unicamp/lab5/linux/include/linux/instrumentation.h \
   /home/nicholaspucharelli/Unicamp/lab5/linux/include/linux/static_call_types.h \
     $(wildcard include/config/HAVE_STATIC_CALL) \
-    $(wildcard include/config/HAVE_STATIC_CALL_INLINE) \
   /home/nicholaspucharelli/Unicamp/lab5/linux/include/asm-generic/bug.h \
     $(wildcard include/config/BUG) \
     $(wildcard include/config/GENERIC_BUG_RELATIVE_POINTERS) \
@@ -129,9 +149,7 @@ deps_lab5_char.o := \
     $(wildcard include/config/CONSOLE_LOGLEVEL_QUIET) \
     $(wildcard include/config/EARLY_PRINTK) \
     $(wildcard include/config/PRINTK) \
-    $(wildcard include/config/PRINTK_INDEX) \
     $(wildcard include/config/DYNAMIC_DEBUG) \
-    $(wildcard include/config/DYNAMIC_DEBUG_CORE) \
   /home/nicholaspucharelli/Unicamp/lab5/linux/include/linux/init.h \
     $(wildcard include/config/MEMORY_HOTPLUG) \
     $(wildcard include/config/HAVE_ARCH_PREL32_RELOCATIONS) \
@@ -143,7 +161,6 @@ deps_lab5_char.o := \
     $(wildcard include/config/GENDWARFKSYMS) \
   /home/nicholaspucharelli/Unicamp/lab5/linux/arch/x86/include/asm/linkage.h \
     $(wildcard include/config/CALL_PADDING) \
-    $(wildcard include/config/MITIGATION_RETPOLINE) \
     $(wildcard include/config/MITIGATION_SLS) \
     $(wildcard include/config/FUNCTION_PADDING_BYTES) \
     $(wildcard include/config/UML) \
@@ -182,18 +199,11 @@ deps_lab5_char.o := \
     $(wildcard include/config/LOCK_STAT) \
   /home/nicholaspucharelli/Unicamp/lab5/linux/arch/x86/include/asm/nops.h \
   /home/nicholaspucharelli/Unicamp/lab5/linux/include/asm-generic/barrier.h \
-  /home/nicholaspucharelli/Unicamp/lab5/linux/include/linux/sysfs.h \
-    $(wildcard include/config/SYSFS) \
-  /home/nicholaspucharelli/Unicamp/lab5/linux/include/linux/kernfs.h \
-    $(wildcard include/config/KERNFS) \
-  /home/nicholaspucharelli/Unicamp/lab5/linux/include/linux/err.h \
-  /home/nicholaspucharelli/Unicamp/lab5/linux/arch/x86/include/generated/uapi/asm/errno.h \
-  /home/nicholaspucharelli/Unicamp/lab5/linux/include/uapi/asm-generic/errno.h \
-  /home/nicholaspucharelli/Unicamp/lab5/linux/include/uapi/asm-generic/errno-base.h \
-  /home/nicholaspucharelli/Unicamp/lab5/linux/include/linux/mutex.h \
-    $(wildcard include/config/DEBUG_MUTEXES) \
-    $(wildcard include/config/PREEMPT_RT) \
-  /home/nicholaspucharelli/Unicamp/lab5/linux/arch/x86/include/asm/current.h \
+  /home/nicholaspucharelli/Unicamp/lab5/linux/include/linux/stat.h \
+  /home/nicholaspucharelli/Unicamp/lab5/linux/arch/x86/include/uapi/asm/stat.h \
+  /home/nicholaspucharelli/Unicamp/lab5/linux/include/uapi/linux/stat.h \
+  /home/nicholaspucharelli/Unicamp/lab5/linux/include/linux/time.h \
+    $(wildcard include/config/POSIX_TIMERS) \
   /home/nicholaspucharelli/Unicamp/lab5/linux/include/linux/cache.h \
     $(wildcard include/config/ARCH_HAS_CACHE_LINE_SIZE) \
   /home/nicholaspucharelli/Unicamp/lab5/linux/include/uapi/linux/kernel.h \
@@ -203,6 +213,66 @@ deps_lab5_char.o := \
     $(wildcard include/config/X86_L1_CACHE_SHIFT) \
     $(wildcard include/config/X86_INTERNODE_CACHE_SHIFT) \
     $(wildcard include/config/X86_VSMP) \
+  /home/nicholaspucharelli/Unicamp/lab5/linux/include/linux/math64.h \
+    $(wildcard include/config/ARCH_SUPPORTS_INT128) \
+  /home/nicholaspucharelli/Unicamp/lab5/linux/include/linux/math.h \
+  /home/nicholaspucharelli/Unicamp/lab5/linux/arch/x86/include/asm/div64.h \
+  /home/nicholaspucharelli/Unicamp/lab5/linux/include/asm-generic/div64.h \
+    $(wildcard include/config/CC_OPTIMIZE_FOR_PERFORMANCE) \
+  /home/nicholaspucharelli/Unicamp/lab5/linux/include/vdso/math64.h \
+  /home/nicholaspucharelli/Unicamp/lab5/linux/include/linux/time64.h \
+  /home/nicholaspucharelli/Unicamp/lab5/linux/include/vdso/time64.h \
+  /home/nicholaspucharelli/Unicamp/lab5/linux/include/uapi/linux/time.h \
+  /home/nicholaspucharelli/Unicamp/lab5/linux/include/uapi/linux/time_types.h \
+  /home/nicholaspucharelli/Unicamp/lab5/linux/include/linux/time32.h \
+  /home/nicholaspucharelli/Unicamp/lab5/linux/include/linux/timex.h \
+  /home/nicholaspucharelli/Unicamp/lab5/linux/include/uapi/linux/timex.h \
+  /home/nicholaspucharelli/Unicamp/lab5/linux/arch/x86/include/asm/timex.h \
+  /home/nicholaspucharelli/Unicamp/lab5/linux/arch/x86/include/asm/processor.h \
+    $(wildcard include/config/X86_VMX_FEATURE_NAMES) \
+    $(wildcard include/config/X86_IOPL_IOPERM) \
+    $(wildcard include/config/VM86) \
+    $(wildcard include/config/X86_USER_SHADOW_STACK) \
+    $(wildcard include/config/X86_DEBUG_FPU) \
+    $(wildcard include/config/PARAVIRT_XXL) \
+    $(wildcard include/config/CPU_SUP_AMD) \
+    $(wildcard include/config/XEN) \
+  /home/nicholaspucharelli/Unicamp/lab5/linux/arch/x86/include/asm/processor-flags.h \
+    $(wildcard include/config/MITIGATION_PAGE_TABLE_ISOLATION) \
+  /home/nicholaspucharelli/Unicamp/lab5/linux/arch/x86/include/uapi/asm/processor-flags.h \
+  /home/nicholaspucharelli/Unicamp/lab5/linux/include/linux/mem_encrypt.h \
+    $(wildcard include/config/ARCH_HAS_MEM_ENCRYPT) \
+    $(wildcard include/config/AMD_MEM_ENCRYPT) \
+  /home/nicholaspucharelli/Unicamp/lab5/linux/arch/x86/include/asm/mem_encrypt.h \
+    $(wildcard include/config/X86_MEM_ENCRYPT) \
+  /home/nicholaspucharelli/Unicamp/lab5/linux/include/linux/cc_platform.h \
+    $(wildcard include/config/ARCH_HAS_CC_PLATFORM) \
+  /home/nicholaspucharelli/Unicamp/lab5/linux/arch/x86/include/asm/math_emu.h \
+  /home/nicholaspucharelli/Unicamp/lab5/linux/arch/x86/include/asm/ptrace.h \
+    $(wildcard include/config/PARAVIRT) \
+    $(wildcard include/config/IA32_EMULATION) \
+    $(wildcard include/config/X86_DEBUGCTLMSR) \
+  /home/nicholaspucharelli/Unicamp/lab5/linux/arch/x86/include/asm/segment.h \
+    $(wildcard include/config/XEN_PV) \
+  /home/nicholaspucharelli/Unicamp/lab5/linux/arch/x86/include/asm/page_types.h \
+    $(wildcard include/config/PHYSICAL_START) \
+    $(wildcard include/config/PHYSICAL_ALIGN) \
+    $(wildcard include/config/DYNAMIC_PHYSICAL_MASK) \
+  /home/nicholaspucharelli/Unicamp/lab5/linux/include/vdso/page.h \
+    $(wildcard include/config/PAGE_SHIFT) \
+  /home/nicholaspucharelli/Unicamp/lab5/linux/arch/x86/include/asm/page_64_types.h \
+    $(wildcard include/config/KASAN) \
+    $(wildcard include/config/RANDOMIZE_BASE) \
+  /home/nicholaspucharelli/Unicamp/lab5/linux/arch/x86/include/asm/kaslr.h \
+    $(wildcard include/config/RANDOMIZE_MEMORY) \
+  /home/nicholaspucharelli/Unicamp/lab5/linux/arch/x86/include/uapi/asm/ptrace.h \
+  /home/nicholaspucharelli/Unicamp/lab5/linux/arch/x86/include/uapi/asm/ptrace-abi.h \
+  /home/nicholaspucharelli/Unicamp/lab5/linux/arch/x86/include/asm/paravirt-base.h \
+    $(wildcard include/config/PARAVIRT_SPINLOCKS) \
+  /home/nicholaspucharelli/Unicamp/lab5/linux/arch/x86/include/asm/proto.h \
+  /home/nicholaspucharelli/Unicamp/lab5/linux/arch/x86/include/uapi/asm/ldt.h \
+  /home/nicholaspucharelli/Unicamp/lab5/linux/arch/x86/include/uapi/asm/sigcontext.h \
+  /home/nicholaspucharelli/Unicamp/lab5/linux/arch/x86/include/asm/current.h \
   /home/nicholaspucharelli/Unicamp/lab5/linux/arch/x86/include/asm/percpu.h \
   /home/nicholaspucharelli/Unicamp/lab5/linux/include/linux/args.h \
   /home/nicholaspucharelli/Unicamp/lab5/linux/include/asm-generic/percpu.h \
@@ -213,18 +283,95 @@ deps_lab5_char.o := \
   /home/nicholaspucharelli/Unicamp/lab5/linux/include/linux/percpu-defs.h \
     $(wildcard include/config/ARCH_MODULE_NEEDS_WEAK_PER_CPU) \
     $(wildcard include/config/DEBUG_FORCE_WEAK_PER_CPU) \
-    $(wildcard include/config/AMD_MEM_ENCRYPT) \
-  /home/nicholaspucharelli/Unicamp/lab5/linux/include/linux/spinlock_types.h \
-  /home/nicholaspucharelli/Unicamp/lab5/linux/include/linux/rwlock_types.h \
-  /home/nicholaspucharelli/Unicamp/lab5/linux/include/linux/lockdep.h \
-    $(wildcard include/config/PROVE_LOCKING) \
-    $(wildcard include/config/DEBUG_LOCKING_API_SELFTESTS) \
-    $(wildcard include/config/PREEMPT_COUNT) \
-  /home/nicholaspucharelli/Unicamp/lab5/linux/include/linux/smp.h \
-    $(wildcard include/config/UP_LATE_INIT) \
-    $(wildcard include/config/CSD_LOCK_WAIT_DEBUG) \
+  /home/nicholaspucharelli/Unicamp/lab5/linux/arch/x86/include/asm/cpufeatures.h \
+  /home/nicholaspucharelli/Unicamp/lab5/linux/arch/x86/include/asm/cpuid/types.h \
+  /home/nicholaspucharelli/Unicamp/lab5/linux/arch/x86/include/asm/cpuid/leaf_types.h \
+  /home/nicholaspucharelli/Unicamp/lab5/linux/arch/x86/include/asm/page.h \
+  /home/nicholaspucharelli/Unicamp/lab5/linux/arch/x86/include/asm/page_64.h \
+    $(wildcard include/config/DEBUG_VIRTUAL) \
+    $(wildcard include/config/X86_VSYSCALL_EMULATION) \
+  /home/nicholaspucharelli/Unicamp/lab5/linux/include/linux/kmsan-checks.h \
+    $(wildcard include/config/KMSAN) \
+  /home/nicholaspucharelli/Unicamp/lab5/linux/include/linux/mmdebug.h \
+    $(wildcard include/config/DEBUG_VM) \
+    $(wildcard include/config/DEBUG_VM_IRQSOFF) \
+    $(wildcard include/config/DEBUG_VM_PGFLAGS) \
+  /home/nicholaspucharelli/Unicamp/lab5/linux/include/linux/bug.h \
+    $(wildcard include/config/BUG_ON_DATA_CORRUPTION) \
+  /home/nicholaspucharelli/Unicamp/lab5/linux/include/linux/range.h \
+  /home/nicholaspucharelli/Unicamp/lab5/linux/include/asm-generic/memory_model.h \
+    $(wildcard include/config/FLATMEM) \
+    $(wildcard include/config/SPARSEMEM_VMEMMAP) \
+    $(wildcard include/config/SPARSEMEM) \
+  /home/nicholaspucharelli/Unicamp/lab5/linux/include/linux/pfn.h \
+  /home/nicholaspucharelli/Unicamp/lab5/linux/include/asm-generic/getorder.h \
+  /home/nicholaspucharelli/Unicamp/lab5/linux/include/linux/log2.h \
+    $(wildcard include/config/ARCH_HAS_ILOG2_U32) \
+    $(wildcard include/config/ARCH_HAS_ILOG2_U64) \
+  /home/nicholaspucharelli/Unicamp/lab5/linux/include/linux/bitops.h \
+  /home/nicholaspucharelli/Unicamp/lab5/linux/include/linux/typecheck.h \
+  /home/nicholaspucharelli/Unicamp/lab5/linux/include/asm-generic/bitops/generic-non-atomic.h \
+  /home/nicholaspucharelli/Unicamp/lab5/linux/arch/x86/include/asm/bitops.h \
+    $(wildcard include/config/X86_CMOV) \
+  /home/nicholaspucharelli/Unicamp/lab5/linux/arch/x86/include/asm/rmwcc.h \
+  /home/nicholaspucharelli/Unicamp/lab5/linux/include/asm-generic/bitops/sched.h \
+  /home/nicholaspucharelli/Unicamp/lab5/linux/arch/x86/include/asm/arch_hweight.h \
+  /home/nicholaspucharelli/Unicamp/lab5/linux/include/asm-generic/bitops/const_hweight.h \
+  /home/nicholaspucharelli/Unicamp/lab5/linux/include/asm-generic/bitops/instrumented-atomic.h \
+  /home/nicholaspucharelli/Unicamp/lab5/linux/include/linux/instrumented.h \
+    $(wildcard include/config/DEBUG_ATOMIC) \
+    $(wildcard include/config/DEBUG_ATOMIC_LARGEST_ALIGN) \
+  /home/nicholaspucharelli/Unicamp/lab5/linux/include/asm-generic/bitops/instrumented-non-atomic.h \
+    $(wildcard include/config/KCSAN_ASSUME_PLAIN_WRITES_ATOMIC) \
+  /home/nicholaspucharelli/Unicamp/lab5/linux/include/asm-generic/bitops/instrumented-lock.h \
+  /home/nicholaspucharelli/Unicamp/lab5/linux/include/asm-generic/bitops/le.h \
+  /home/nicholaspucharelli/Unicamp/lab5/linux/include/asm-generic/bitops/ext2-atomic-setbit.h \
+  /home/nicholaspucharelli/Unicamp/lab5/linux/arch/x86/include/asm/pgtable_types.h \
+    $(wildcard include/config/X86_INTEL_MEMORY_PROTECTION_KEYS) \
+    $(wildcard include/config/X86_PAE) \
+    $(wildcard include/config/MEM_SOFT_DIRTY) \
+    $(wildcard include/config/HAVE_ARCH_USERFAULTFD_WP) \
+    $(wildcard include/config/PGTABLE_LEVELS) \
+    $(wildcard include/config/PROC_FS) \
+  /home/nicholaspucharelli/Unicamp/lab5/linux/arch/x86/include/asm/pgtable_64_types.h \
+    $(wildcard include/config/DEBUG_KMAP_LOCAL_FORCE_MAP) \
+  /home/nicholaspucharelli/Unicamp/lab5/linux/arch/x86/include/asm/sparsemem.h \
+  /home/nicholaspucharelli/Unicamp/lab5/linux/arch/x86/include/asm/desc_defs.h \
+  /home/nicholaspucharelli/Unicamp/lab5/linux/arch/x86/include/asm/special_insns.h \
   /home/nicholaspucharelli/Unicamp/lab5/linux/include/linux/errno.h \
   /home/nicholaspucharelli/Unicamp/lab5/linux/include/uapi/linux/errno.h \
+  /home/nicholaspucharelli/Unicamp/lab5/linux/arch/x86/include/generated/uapi/asm/errno.h \
+  /home/nicholaspucharelli/Unicamp/lab5/linux/include/uapi/asm-generic/errno.h \
+  /home/nicholaspucharelli/Unicamp/lab5/linux/include/uapi/asm-generic/errno-base.h \
+  /home/nicholaspucharelli/Unicamp/lab5/linux/include/linux/irqflags.h \
+    $(wildcard include/config/PROVE_LOCKING) \
+    $(wildcard include/config/TRACE_IRQFLAGS) \
+    $(wildcard include/config/PREEMPT_RT) \
+    $(wildcard include/config/IRQSOFF_TRACER) \
+    $(wildcard include/config/PREEMPT_TRACER) \
+    $(wildcard include/config/DEBUG_IRQFLAGS) \
+    $(wildcard include/config/TRACE_IRQFLAGS_SUPPORT) \
+  /home/nicholaspucharelli/Unicamp/lab5/linux/include/linux/irqflags_types.h \
+  /home/nicholaspucharelli/Unicamp/lab5/linux/include/linux/cleanup.h \
+  /home/nicholaspucharelli/Unicamp/lab5/linux/include/linux/err.h \
+  /home/nicholaspucharelli/Unicamp/lab5/linux/arch/x86/include/asm/irqflags.h \
+    $(wildcard include/config/DEBUG_ENTRY) \
+  /home/nicholaspucharelli/Unicamp/lab5/linux/arch/x86/include/asm/nospec-branch.h \
+    $(wildcard include/config/CALL_THUNKS_DEBUG) \
+    $(wildcard include/config/MITIGATION_CALL_DEPTH_TRACKING) \
+    $(wildcard include/config/MITIGATION_IBPB_ENTRY) \
+  /home/nicholaspucharelli/Unicamp/lab5/linux/include/linux/static_key.h \
+  /home/nicholaspucharelli/Unicamp/lab5/linux/include/linux/jump_label.h \
+    $(wildcard include/config/HAVE_ARCH_JUMP_LABEL_RELATIVE) \
+  /home/nicholaspucharelli/Unicamp/lab5/linux/arch/x86/include/asm/jump_label.h \
+    $(wildcard include/config/HAVE_JUMP_LABEL_HACK) \
+  /home/nicholaspucharelli/Unicamp/lab5/linux/arch/x86/include/asm/msr-index.h \
+  /home/nicholaspucharelli/Unicamp/lab5/linux/arch/x86/include/asm/unwind_hints.h \
+  /home/nicholaspucharelli/Unicamp/lab5/linux/arch/x86/include/asm/orc_types.h \
+  /home/nicholaspucharelli/Unicamp/lab5/linux/arch/x86/include/asm/GEN-for-each-reg.h \
+  /home/nicholaspucharelli/Unicamp/lab5/linux/arch/x86/include/asm/paravirt.h \
+  /home/nicholaspucharelli/Unicamp/lab5/linux/arch/x86/include/asm/paravirt_types.h \
+    $(wildcard include/config/ZERO_CALL_USED_REGS) \
   /home/nicholaspucharelli/Unicamp/lab5/linux/include/linux/cpumask.h \
     $(wildcard include/config/FORCE_NR_CPUS) \
     $(wildcard include/config/HOTPLUG_CPU) \
@@ -233,39 +380,15 @@ deps_lab5_char.o := \
   /home/nicholaspucharelli/Unicamp/lab5/linux/include/linux/atomic.h \
   /home/nicholaspucharelli/Unicamp/lab5/linux/arch/x86/include/asm/atomic.h \
   /home/nicholaspucharelli/Unicamp/lab5/linux/arch/x86/include/asm/cmpxchg.h \
-  /home/nicholaspucharelli/Unicamp/lab5/linux/arch/x86/include/asm/cpufeatures.h \
   /home/nicholaspucharelli/Unicamp/lab5/linux/arch/x86/include/asm/cmpxchg_64.h \
-  /home/nicholaspucharelli/Unicamp/lab5/linux/arch/x86/include/asm/rmwcc.h \
   /home/nicholaspucharelli/Unicamp/lab5/linux/arch/x86/include/asm/atomic64_64.h \
   /home/nicholaspucharelli/Unicamp/lab5/linux/include/linux/atomic/atomic-arch-fallback.h \
     $(wildcard include/config/GENERIC_ATOMIC64) \
   /home/nicholaspucharelli/Unicamp/lab5/linux/include/linux/atomic/atomic-long.h \
   /home/nicholaspucharelli/Unicamp/lab5/linux/include/linux/atomic/atomic-instrumented.h \
-  /home/nicholaspucharelli/Unicamp/lab5/linux/include/linux/instrumented.h \
-    $(wildcard include/config/DEBUG_ATOMIC) \
-    $(wildcard include/config/DEBUG_ATOMIC_LARGEST_ALIGN) \
-  /home/nicholaspucharelli/Unicamp/lab5/linux/include/linux/bug.h \
-    $(wildcard include/config/BUG_ON_DATA_CORRUPTION) \
-  /home/nicholaspucharelli/Unicamp/lab5/linux/include/linux/kmsan-checks.h \
-    $(wildcard include/config/KMSAN) \
   /home/nicholaspucharelli/Unicamp/lab5/linux/include/linux/bitmap.h \
   /home/nicholaspucharelli/Unicamp/lab5/linux/include/linux/align.h \
   /home/nicholaspucharelli/Unicamp/lab5/linux/include/vdso/align.h \
-  /home/nicholaspucharelli/Unicamp/lab5/linux/include/linux/bitops.h \
-  /home/nicholaspucharelli/Unicamp/lab5/linux/include/linux/typecheck.h \
-  /home/nicholaspucharelli/Unicamp/lab5/linux/include/asm-generic/bitops/generic-non-atomic.h \
-  /home/nicholaspucharelli/Unicamp/lab5/linux/arch/x86/include/asm/bitops.h \
-    $(wildcard include/config/X86_CMOV) \
-  /home/nicholaspucharelli/Unicamp/lab5/linux/include/asm-generic/bitops/sched.h \
-  /home/nicholaspucharelli/Unicamp/lab5/linux/arch/x86/include/asm/arch_hweight.h \
-  /home/nicholaspucharelli/Unicamp/lab5/linux/include/asm-generic/bitops/const_hweight.h \
-  /home/nicholaspucharelli/Unicamp/lab5/linux/include/asm-generic/bitops/instrumented-atomic.h \
-  /home/nicholaspucharelli/Unicamp/lab5/linux/include/asm-generic/bitops/instrumented-non-atomic.h \
-    $(wildcard include/config/KCSAN_ASSUME_PLAIN_WRITES_ATOMIC) \
-  /home/nicholaspucharelli/Unicamp/lab5/linux/include/asm-generic/bitops/instrumented-lock.h \
-  /home/nicholaspucharelli/Unicamp/lab5/linux/include/asm-generic/bitops/le.h \
-  /home/nicholaspucharelli/Unicamp/lab5/linux/include/asm-generic/bitops/ext2-atomic-setbit.h \
-  /home/nicholaspucharelli/Unicamp/lab5/linux/include/linux/cleanup.h \
   /home/nicholaspucharelli/Unicamp/lab5/linux/include/linux/find.h \
   /home/nicholaspucharelli/Unicamp/lab5/linux/include/linux/string.h \
     $(wildcard include/config/BINARY_PRINTF) \
@@ -274,11 +397,6 @@ deps_lab5_char.o := \
   /home/nicholaspucharelli/Unicamp/lab5/linux/arch/x86/include/asm/string.h \
   /home/nicholaspucharelli/Unicamp/lab5/linux/arch/x86/include/asm/string_64.h \
     $(wildcard include/config/ARCH_HAS_UACCESS_FLUSHCACHE) \
-  /home/nicholaspucharelli/Unicamp/lab5/linux/include/linux/jump_label.h \
-    $(wildcard include/config/JUMP_LABEL) \
-    $(wildcard include/config/HAVE_ARCH_JUMP_LABEL_RELATIVE) \
-  /home/nicholaspucharelli/Unicamp/lab5/linux/arch/x86/include/asm/jump_label.h \
-    $(wildcard include/config/HAVE_JUMP_LABEL_HACK) \
   /home/nicholaspucharelli/Unicamp/lab5/linux/include/linux/bitmap-str.h \
   /home/nicholaspucharelli/Unicamp/lab5/linux/include/linux/cpumask_types.h \
   /home/nicholaspucharelli/Unicamp/lab5/linux/include/linux/gfp_types.h \
@@ -302,18 +420,9 @@ deps_lab5_char.o := \
     $(wildcard include/config/PREEMPT_) \
     $(wildcard include/config/DEBUG_ATOMIC_SLEEP) \
     $(wildcard include/config/MMU) \
-    $(wildcard include/config/DYNAMIC_FTRACE) \
   /home/nicholaspucharelli/Unicamp/lab5/linux/include/linux/kstrtox.h \
-  /home/nicholaspucharelli/Unicamp/lab5/linux/include/linux/log2.h \
-    $(wildcard include/config/ARCH_HAS_ILOG2_U32) \
-    $(wildcard include/config/ARCH_HAS_ILOG2_U64) \
-  /home/nicholaspucharelli/Unicamp/lab5/linux/include/linux/math.h \
-  /home/nicholaspucharelli/Unicamp/lab5/linux/arch/x86/include/asm/div64.h \
-  /home/nicholaspucharelli/Unicamp/lab5/linux/include/asm-generic/div64.h \
-    $(wildcard include/config/CC_OPTIMIZE_FOR_PERFORMANCE) \
   /home/nicholaspucharelli/Unicamp/lab5/linux/include/linux/sprintf.h \
   /home/nicholaspucharelli/Unicamp/lab5/linux/include/linux/trace_printk.h \
-    $(wildcard include/config/TRACING) \
   /home/nicholaspucharelli/Unicamp/lab5/linux/include/linux/instruction_pointer.h \
   /home/nicholaspucharelli/Unicamp/lab5/linux/include/linux/util_macros.h \
     $(wildcard include/config/FOO_SUSPEND) \
@@ -325,129 +434,6 @@ deps_lab5_char.o := \
   /home/nicholaspucharelli/Unicamp/lab5/linux/include/uapi/asm-generic/ioctl.h \
   /home/nicholaspucharelli/Unicamp/lab5/linux/include/linux/irqnr.h \
   /home/nicholaspucharelli/Unicamp/lab5/linux/include/uapi/linux/irqnr.h \
-  /home/nicholaspucharelli/Unicamp/lab5/linux/arch/x86/include/asm/sparsemem.h \
-    $(wildcard include/config/SPARSEMEM) \
-    $(wildcard include/config/X86_PAE) \
-  /home/nicholaspucharelli/Unicamp/lab5/linux/include/vdso/page.h \
-    $(wildcard include/config/PAGE_SHIFT) \
-  /home/nicholaspucharelli/Unicamp/lab5/linux/include/linux/smp_types.h \
-  /home/nicholaspucharelli/Unicamp/lab5/linux/include/linux/llist.h \
-    $(wildcard include/config/ARCH_HAVE_NMI_SAFE_CMPXCHG) \
-  /home/nicholaspucharelli/Unicamp/lab5/linux/include/linux/preempt.h \
-    $(wildcard include/config/TRACE_PREEMPT_TOGGLE) \
-    $(wildcard include/config/PREEMPTION) \
-    $(wildcard include/config/PREEMPT_NOTIFIERS) \
-    $(wildcard include/config/PREEMPT_NONE) \
-    $(wildcard include/config/PREEMPT_VOLUNTARY) \
-    $(wildcard include/config/PREEMPT) \
-    $(wildcard include/config/PREEMPT_LAZY) \
-  /home/nicholaspucharelli/Unicamp/lab5/linux/arch/x86/include/asm/preempt.h \
-  /home/nicholaspucharelli/Unicamp/lab5/linux/include/linux/thread_info.h \
-    $(wildcard include/config/THREAD_INFO_IN_TASK) \
-    $(wildcard include/config/GENERIC_ENTRY) \
-    $(wildcard include/config/ARCH_HAS_PREEMPT_LAZY) \
-    $(wildcard include/config/HAVE_ARCH_WITHIN_STACK_FRAMES) \
-    $(wildcard include/config/SH) \
-  /home/nicholaspucharelli/Unicamp/lab5/linux/include/linux/restart_block.h \
-  /home/nicholaspucharelli/Unicamp/lab5/linux/include/linux/time64.h \
-  /home/nicholaspucharelli/Unicamp/lab5/linux/include/linux/math64.h \
-    $(wildcard include/config/ARCH_SUPPORTS_INT128) \
-  /home/nicholaspucharelli/Unicamp/lab5/linux/include/vdso/math64.h \
-  /home/nicholaspucharelli/Unicamp/lab5/linux/include/vdso/time64.h \
-  /home/nicholaspucharelli/Unicamp/lab5/linux/include/uapi/linux/time.h \
-  /home/nicholaspucharelli/Unicamp/lab5/linux/include/uapi/linux/time_types.h \
-  /home/nicholaspucharelli/Unicamp/lab5/linux/arch/x86/include/asm/thread_info.h \
-    $(wildcard include/config/VM86) \
-    $(wildcard include/config/X86_FRED) \
-    $(wildcard include/config/X86_IOPL_IOPERM) \
-    $(wildcard include/config/COMPAT) \
-    $(wildcard include/config/IA32_EMULATION) \
-  /home/nicholaspucharelli/Unicamp/lab5/linux/arch/x86/include/asm/page.h \
-  /home/nicholaspucharelli/Unicamp/lab5/linux/arch/x86/include/asm/page_types.h \
-    $(wildcard include/config/PHYSICAL_START) \
-    $(wildcard include/config/PHYSICAL_ALIGN) \
-    $(wildcard include/config/DYNAMIC_PHYSICAL_MASK) \
-  /home/nicholaspucharelli/Unicamp/lab5/linux/include/linux/mem_encrypt.h \
-    $(wildcard include/config/ARCH_HAS_MEM_ENCRYPT) \
-  /home/nicholaspucharelli/Unicamp/lab5/linux/arch/x86/include/asm/mem_encrypt.h \
-    $(wildcard include/config/X86_MEM_ENCRYPT) \
-  /home/nicholaspucharelli/Unicamp/lab5/linux/include/linux/cc_platform.h \
-    $(wildcard include/config/ARCH_HAS_CC_PLATFORM) \
-  /home/nicholaspucharelli/Unicamp/lab5/linux/arch/x86/include/asm/page_64_types.h \
-    $(wildcard include/config/KASAN) \
-    $(wildcard include/config/RANDOMIZE_BASE) \
-  /home/nicholaspucharelli/Unicamp/lab5/linux/arch/x86/include/asm/kaslr.h \
-    $(wildcard include/config/RANDOMIZE_MEMORY) \
-  /home/nicholaspucharelli/Unicamp/lab5/linux/arch/x86/include/asm/page_64.h \
-    $(wildcard include/config/DEBUG_VIRTUAL) \
-    $(wildcard include/config/X86_VSYSCALL_EMULATION) \
-  /home/nicholaspucharelli/Unicamp/lab5/linux/include/linux/mmdebug.h \
-    $(wildcard include/config/DEBUG_VM) \
-    $(wildcard include/config/DEBUG_VM_IRQSOFF) \
-    $(wildcard include/config/DEBUG_VM_PGFLAGS) \
-  /home/nicholaspucharelli/Unicamp/lab5/linux/include/linux/range.h \
-  /home/nicholaspucharelli/Unicamp/lab5/linux/include/asm-generic/memory_model.h \
-    $(wildcard include/config/FLATMEM) \
-    $(wildcard include/config/SPARSEMEM_VMEMMAP) \
-  /home/nicholaspucharelli/Unicamp/lab5/linux/include/linux/pfn.h \
-  /home/nicholaspucharelli/Unicamp/lab5/linux/include/asm-generic/getorder.h \
-  /home/nicholaspucharelli/Unicamp/lab5/linux/arch/x86/include/asm/cpufeature.h \
-  /home/nicholaspucharelli/Unicamp/lab5/linux/arch/x86/include/asm/processor.h \
-    $(wildcard include/config/X86_VMX_FEATURE_NAMES) \
-    $(wildcard include/config/X86_USER_SHADOW_STACK) \
-    $(wildcard include/config/X86_DEBUG_FPU) \
-    $(wildcard include/config/PARAVIRT_XXL) \
-    $(wildcard include/config/CPU_SUP_AMD) \
-    $(wildcard include/config/XEN) \
-  /home/nicholaspucharelli/Unicamp/lab5/linux/arch/x86/include/asm/processor-flags.h \
-    $(wildcard include/config/MITIGATION_PAGE_TABLE_ISOLATION) \
-  /home/nicholaspucharelli/Unicamp/lab5/linux/arch/x86/include/uapi/asm/processor-flags.h \
-  /home/nicholaspucharelli/Unicamp/lab5/linux/arch/x86/include/asm/math_emu.h \
-  /home/nicholaspucharelli/Unicamp/lab5/linux/arch/x86/include/asm/ptrace.h \
-    $(wildcard include/config/PARAVIRT) \
-    $(wildcard include/config/X86_DEBUGCTLMSR) \
-  /home/nicholaspucharelli/Unicamp/lab5/linux/arch/x86/include/asm/segment.h \
-    $(wildcard include/config/XEN_PV) \
-  /home/nicholaspucharelli/Unicamp/lab5/linux/arch/x86/include/uapi/asm/ptrace.h \
-  /home/nicholaspucharelli/Unicamp/lab5/linux/arch/x86/include/uapi/asm/ptrace-abi.h \
-  /home/nicholaspucharelli/Unicamp/lab5/linux/arch/x86/include/asm/paravirt-base.h \
-    $(wildcard include/config/PARAVIRT_SPINLOCKS) \
-  /home/nicholaspucharelli/Unicamp/lab5/linux/arch/x86/include/asm/proto.h \
-  /home/nicholaspucharelli/Unicamp/lab5/linux/arch/x86/include/uapi/asm/ldt.h \
-  /home/nicholaspucharelli/Unicamp/lab5/linux/arch/x86/include/uapi/asm/sigcontext.h \
-  /home/nicholaspucharelli/Unicamp/lab5/linux/arch/x86/include/asm/cpuid/types.h \
-  /home/nicholaspucharelli/Unicamp/lab5/linux/arch/x86/include/asm/cpuid/leaf_types.h \
-  /home/nicholaspucharelli/Unicamp/lab5/linux/arch/x86/include/asm/pgtable_types.h \
-    $(wildcard include/config/X86_INTEL_MEMORY_PROTECTION_KEYS) \
-    $(wildcard include/config/MEM_SOFT_DIRTY) \
-    $(wildcard include/config/HAVE_ARCH_USERFAULTFD_WP) \
-    $(wildcard include/config/PGTABLE_LEVELS) \
-    $(wildcard include/config/PROC_FS) \
-  /home/nicholaspucharelli/Unicamp/lab5/linux/arch/x86/include/asm/pgtable_64_types.h \
-    $(wildcard include/config/DEBUG_KMAP_LOCAL_FORCE_MAP) \
-  /home/nicholaspucharelli/Unicamp/lab5/linux/arch/x86/include/asm/desc_defs.h \
-  /home/nicholaspucharelli/Unicamp/lab5/linux/arch/x86/include/asm/special_insns.h \
-  /home/nicholaspucharelli/Unicamp/lab5/linux/include/linux/irqflags.h \
-    $(wildcard include/config/TRACE_IRQFLAGS) \
-    $(wildcard include/config/IRQSOFF_TRACER) \
-    $(wildcard include/config/PREEMPT_TRACER) \
-    $(wildcard include/config/DEBUG_IRQFLAGS) \
-    $(wildcard include/config/TRACE_IRQFLAGS_SUPPORT) \
-  /home/nicholaspucharelli/Unicamp/lab5/linux/include/linux/irqflags_types.h \
-  /home/nicholaspucharelli/Unicamp/lab5/linux/arch/x86/include/asm/irqflags.h \
-    $(wildcard include/config/DEBUG_ENTRY) \
-  /home/nicholaspucharelli/Unicamp/lab5/linux/arch/x86/include/asm/nospec-branch.h \
-    $(wildcard include/config/CALL_THUNKS_DEBUG) \
-    $(wildcard include/config/MITIGATION_CALL_DEPTH_TRACKING) \
-    $(wildcard include/config/MITIGATION_IBPB_ENTRY) \
-  /home/nicholaspucharelli/Unicamp/lab5/linux/include/linux/static_key.h \
-  /home/nicholaspucharelli/Unicamp/lab5/linux/arch/x86/include/asm/msr-index.h \
-  /home/nicholaspucharelli/Unicamp/lab5/linux/arch/x86/include/asm/unwind_hints.h \
-  /home/nicholaspucharelli/Unicamp/lab5/linux/arch/x86/include/asm/orc_types.h \
-  /home/nicholaspucharelli/Unicamp/lab5/linux/arch/x86/include/asm/GEN-for-each-reg.h \
-  /home/nicholaspucharelli/Unicamp/lab5/linux/arch/x86/include/asm/paravirt.h \
-  /home/nicholaspucharelli/Unicamp/lab5/linux/arch/x86/include/asm/paravirt_types.h \
-    $(wildcard include/config/ZERO_CALL_USED_REGS) \
   /home/nicholaspucharelli/Unicamp/lab5/linux/arch/x86/include/asm/frame.h \
   /home/nicholaspucharelli/Unicamp/lab5/linux/arch/x86/include/asm/fpu/types.h \
   /home/nicholaspucharelli/Unicamp/lab5/linux/arch/x86/include/asm/vmxfeatures.h \
@@ -455,19 +441,14 @@ deps_lab5_char.o := \
   /home/nicholaspucharelli/Unicamp/lab5/linux/arch/x86/include/asm/shstk.h \
   /home/nicholaspucharelli/Unicamp/lab5/linux/include/linux/personality.h \
   /home/nicholaspucharelli/Unicamp/lab5/linux/include/uapi/linux/personality.h \
+  /home/nicholaspucharelli/Unicamp/lab5/linux/arch/x86/include/asm/tsc.h \
+  /home/nicholaspucharelli/Unicamp/lab5/linux/arch/x86/include/asm/cpufeature.h \
   /home/nicholaspucharelli/Unicamp/lab5/linux/arch/x86/include/generated/asm/cpufeaturemasks.h \
-  /home/nicholaspucharelli/Unicamp/lab5/linux/include/asm-generic/thread_info_tif.h \
-  /home/nicholaspucharelli/Unicamp/lab5/linux/arch/x86/include/asm/smp.h \
-    $(wildcard include/config/DEBUG_NMI_SELFTEST) \
+  /home/nicholaspucharelli/Unicamp/lab5/linux/arch/x86/include/asm/msr.h \
   /home/nicholaspucharelli/Unicamp/lab5/linux/arch/x86/include/asm/cpumask.h \
-  /home/nicholaspucharelli/Unicamp/lab5/linux/include/linux/osq_lock.h \
-  /home/nicholaspucharelli/Unicamp/lab5/linux/include/linux/debug_locks.h \
-  /home/nicholaspucharelli/Unicamp/lab5/linux/include/linux/mutex_types.h \
-    $(wildcard include/config/MUTEX_SPIN_ON_OWNER) \
-  /home/nicholaspucharelli/Unicamp/lab5/linux/include/linux/idr.h \
-  /home/nicholaspucharelli/Unicamp/lab5/linux/include/linux/radix-tree.h \
+  /home/nicholaspucharelli/Unicamp/lab5/linux/arch/x86/include/uapi/asm/msr.h \
+  /home/nicholaspucharelli/Unicamp/lab5/linux/arch/x86/include/asm/shared/msr.h \
   /home/nicholaspucharelli/Unicamp/lab5/linux/include/linux/percpu.h \
-    $(wildcard include/config/MODULES) \
     $(wildcard include/config/KMALLOC_PARTITION_CACHES) \
     $(wildcard include/config/PAGE_SIZE_4KB) \
     $(wildcard include/config/NEED_PER_CPU_PAGE_FIRST_CHUNK) \
@@ -477,6 +458,35 @@ deps_lab5_char.o := \
     $(wildcard include/config/MEM_ALLOC_PROFILING_ENABLED_BY_DEFAULT) \
   /home/nicholaspucharelli/Unicamp/lab5/linux/include/linux/codetag.h \
     $(wildcard include/config/CODE_TAGGING) \
+  /home/nicholaspucharelli/Unicamp/lab5/linux/include/linux/preempt.h \
+    $(wildcard include/config/PREEMPT_COUNT) \
+    $(wildcard include/config/TRACE_PREEMPT_TOGGLE) \
+    $(wildcard include/config/PREEMPTION) \
+    $(wildcard include/config/PREEMPT_NOTIFIERS) \
+    $(wildcard include/config/PREEMPT_NONE) \
+    $(wildcard include/config/PREEMPT_VOLUNTARY) \
+    $(wildcard include/config/PREEMPT) \
+    $(wildcard include/config/PREEMPT_LAZY) \
+  /home/nicholaspucharelli/Unicamp/lab5/linux/arch/x86/include/asm/preempt.h \
+  /home/nicholaspucharelli/Unicamp/lab5/linux/include/linux/smp.h \
+    $(wildcard include/config/UP_LATE_INIT) \
+    $(wildcard include/config/CSD_LOCK_WAIT_DEBUG) \
+  /home/nicholaspucharelli/Unicamp/lab5/linux/include/linux/smp_types.h \
+  /home/nicholaspucharelli/Unicamp/lab5/linux/include/linux/llist.h \
+    $(wildcard include/config/ARCH_HAVE_NMI_SAFE_CMPXCHG) \
+  /home/nicholaspucharelli/Unicamp/lab5/linux/include/linux/thread_info.h \
+    $(wildcard include/config/THREAD_INFO_IN_TASK) \
+    $(wildcard include/config/GENERIC_ENTRY) \
+    $(wildcard include/config/ARCH_HAS_PREEMPT_LAZY) \
+    $(wildcard include/config/HAVE_ARCH_WITHIN_STACK_FRAMES) \
+    $(wildcard include/config/SH) \
+  /home/nicholaspucharelli/Unicamp/lab5/linux/include/linux/restart_block.h \
+  /home/nicholaspucharelli/Unicamp/lab5/linux/arch/x86/include/asm/thread_info.h \
+    $(wildcard include/config/X86_FRED) \
+    $(wildcard include/config/COMPAT) \
+  /home/nicholaspucharelli/Unicamp/lab5/linux/include/asm-generic/thread_info_tif.h \
+  /home/nicholaspucharelli/Unicamp/lab5/linux/arch/x86/include/asm/smp.h \
+    $(wildcard include/config/DEBUG_NMI_SELFTEST) \
   /home/nicholaspucharelli/Unicamp/lab5/linux/include/linux/sched.h \
     $(wildcard include/config/VIRT_CPU_ACCOUNTING_NATIVE) \
     $(wildcard include/config/SCHED_INFO) \
@@ -532,13 +542,11 @@ deps_lab5_char.o := \
     $(wildcard include/config/ARCH_HAS_LAZY_MMU_MODE) \
     $(wildcard include/config/FAULT_INJECTION) \
     $(wildcard include/config/LATENCYTOP) \
-    $(wildcard include/config/KUNIT) \
     $(wildcard include/config/FUNCTION_GRAPH_TRACER) \
     $(wildcard include/config/MEMCG) \
     $(wildcard include/config/UPROBES) \
     $(wildcard include/config/BCACHE) \
     $(wildcard include/config/VMAP_STACK) \
-    $(wildcard include/config/LIVEPATCH) \
     $(wildcard include/config/SECURITY) \
     $(wildcard include/config/BPF_SYSCALL) \
     $(wildcard include/config/KSTACK_ERASE) \
@@ -558,6 +566,12 @@ deps_lab5_char.o := \
     $(wildcard include/config/FUTEX) \
     $(wildcard include/config/FUTEX_PRIVATE_HASH) \
     $(wildcard include/config/FUTEX_ROBUST_UNLOCK) \
+  /home/nicholaspucharelli/Unicamp/lab5/linux/include/linux/mutex_types.h \
+    $(wildcard include/config/MUTEX_SPIN_ON_OWNER) \
+    $(wildcard include/config/DEBUG_MUTEXES) \
+  /home/nicholaspucharelli/Unicamp/lab5/linux/include/linux/osq_lock.h \
+  /home/nicholaspucharelli/Unicamp/lab5/linux/include/linux/spinlock_types.h \
+  /home/nicholaspucharelli/Unicamp/lab5/linux/include/linux/rwlock_types.h \
   /home/nicholaspucharelli/Unicamp/lab5/linux/include/linux/pid_types.h \
   /home/nicholaspucharelli/Unicamp/lab5/linux/include/linux/sem_types.h \
   /home/nicholaspucharelli/Unicamp/lab5/linux/include/linux/shm.h \
@@ -589,6 +603,8 @@ deps_lab5_char.o := \
   /home/nicholaspucharelli/Unicamp/lab5/linux/include/uapi/asm-generic/siginfo.h \
   /home/nicholaspucharelli/Unicamp/lab5/linux/include/linux/spinlock.h \
   /home/nicholaspucharelli/Unicamp/lab5/linux/include/linux/bottom_half.h \
+  /home/nicholaspucharelli/Unicamp/lab5/linux/include/linux/lockdep.h \
+    $(wildcard include/config/DEBUG_LOCKING_API_SELFTESTS) \
   /home/nicholaspucharelli/Unicamp/lab5/linux/arch/x86/include/generated/asm/mmiowb.h \
   /home/nicholaspucharelli/Unicamp/lab5/linux/include/asm-generic/mmiowb.h \
     $(wildcard include/config/MMIOWB) \
@@ -641,7 +657,6 @@ deps_lab5_char.o := \
   /home/nicholaspucharelli/Unicamp/lab5/linux/include/linux/task_io_accounting.h \
     $(wildcard include/config/TASK_IO_ACCOUNTING) \
   /home/nicholaspucharelli/Unicamp/lab5/linux/include/linux/posix-timers_types.h \
-    $(wildcard include/config/POSIX_TIMERS) \
   /home/nicholaspucharelli/Unicamp/lab5/linux/include/linux/rseq_types.h \
     $(wildcard include/config/RSEQ) \
     $(wildcard include/config/RSEQ_SLICE_EXTENSION) \
@@ -655,7 +670,6 @@ deps_lab5_char.o := \
     $(wildcard include/config/RV_REACTORS) \
   /home/nicholaspucharelli/Unicamp/lab5/linux/include/linux/uidgid_types.h \
   /home/nicholaspucharelli/Unicamp/lab5/linux/include/linux/tracepoint-defs.h \
-    $(wildcard include/config/TRACEPOINTS) \
   /home/nicholaspucharelli/Unicamp/lab5/linux/include/linux/unwind_deferred_types.h \
   /home/nicholaspucharelli/Unicamp/lab5/linux/arch/x86/include/generated/asm/kmap_size.h \
   /home/nicholaspucharelli/Unicamp/lab5/linux/include/asm-generic/kmap_size.h \
@@ -663,24 +677,16 @@ deps_lab5_char.o := \
   /home/nicholaspucharelli/Unicamp/lab5/linux/include/generated/rq-offsets.h \
   /home/nicholaspucharelli/Unicamp/lab5/linux/include/linux/sched/ext.h \
     $(wildcard include/config/EXT_GROUP_SCHED) \
-  /home/nicholaspucharelli/Unicamp/lab5/linux/include/linux/rcupdate.h \
-    $(wildcard include/config/TINY_RCU) \
-    $(wildcard include/config/RCU_STRICT_GRACE_PERIOD) \
-    $(wildcard include/config/RCU_LAZY) \
-    $(wildcard include/config/RCU_STALL_COMMON) \
-    $(wildcard include/config/VIRT_XFER_TO_GUEST_WORK) \
-    $(wildcard include/config/RCU_NOCB_CPU) \
-    $(wildcard include/config/TASKS_RCU_GENERIC) \
-    $(wildcard include/config/TASKS_RUDE_RCU) \
-    $(wildcard include/config/TREE_RCU) \
-    $(wildcard include/config/DEBUG_OBJECTS_RCU_HEAD) \
-    $(wildcard include/config/PROVE_RCU) \
-    $(wildcard include/config/ARCH_WEAK_RELEASE_ACQUIRE) \
-  /home/nicholaspucharelli/Unicamp/lab5/linux/include/linux/context_tracking_irq.h \
-    $(wildcard include/config/CONTEXT_TRACKING_IDLE) \
-  /home/nicholaspucharelli/Unicamp/lab5/linux/include/linux/rcutree.h \
-  /home/nicholaspucharelli/Unicamp/lab5/linux/include/linux/xarray.h \
-    $(wildcard include/config/XARRAY_MULTI) \
+  /home/nicholaspucharelli/Unicamp/lab5/linux/include/vdso/time32.h \
+  /home/nicholaspucharelli/Unicamp/lab5/linux/include/vdso/time.h \
+  /home/nicholaspucharelli/Unicamp/lab5/linux/include/linux/uidgid.h \
+    $(wildcard include/config/MULTIUSER) \
+    $(wildcard include/config/USER_NS) \
+  /home/nicholaspucharelli/Unicamp/lab5/linux/include/linux/highuid.h \
+  /home/nicholaspucharelli/Unicamp/lab5/linux/include/linux/buildid.h \
+    $(wildcard include/config/VMCORE_INFO) \
+  /home/nicholaspucharelli/Unicamp/lab5/linux/include/linux/kmod.h \
+  /home/nicholaspucharelli/Unicamp/lab5/linux/include/linux/umh.h \
   /home/nicholaspucharelli/Unicamp/lab5/linux/include/linux/gfp.h \
     $(wildcard include/config/ZONE_DMA) \
     $(wildcard include/config/ZONE_DMA32) \
@@ -714,6 +720,8 @@ deps_lab5_char.o := \
     $(wildcard include/config/CC_IS_GCC) \
     $(wildcard include/config/GCC_VERSION) \
     $(wildcard include/config/UBSAN_ALIGNMENT) \
+  /home/nicholaspucharelli/Unicamp/lab5/linux/include/linux/mutex.h \
+  /home/nicholaspucharelli/Unicamp/lab5/linux/include/linux/debug_locks.h \
   /home/nicholaspucharelli/Unicamp/lab5/linux/include/linux/pageblock-flags.h \
     $(wildcard include/config/HUGETLB_PAGE_SIZE_VARIABLE) \
   /home/nicholaspucharelli/Unicamp/lab5/linux/include/linux/page-flags-layout.h \
@@ -742,6 +750,22 @@ deps_lab5_char.o := \
   /home/nicholaspucharelli/Unicamp/lab5/linux/include/linux/kref.h \
   /home/nicholaspucharelli/Unicamp/lab5/linux/include/linux/refcount.h \
   /home/nicholaspucharelli/Unicamp/lab5/linux/include/linux/rbtree.h \
+  /home/nicholaspucharelli/Unicamp/lab5/linux/include/linux/rcupdate.h \
+    $(wildcard include/config/TINY_RCU) \
+    $(wildcard include/config/RCU_STRICT_GRACE_PERIOD) \
+    $(wildcard include/config/RCU_LAZY) \
+    $(wildcard include/config/RCU_STALL_COMMON) \
+    $(wildcard include/config/VIRT_XFER_TO_GUEST_WORK) \
+    $(wildcard include/config/RCU_NOCB_CPU) \
+    $(wildcard include/config/TASKS_RCU_GENERIC) \
+    $(wildcard include/config/TASKS_RUDE_RCU) \
+    $(wildcard include/config/TREE_RCU) \
+    $(wildcard include/config/DEBUG_OBJECTS_RCU_HEAD) \
+    $(wildcard include/config/PROVE_RCU) \
+    $(wildcard include/config/ARCH_WEAK_RELEASE_ACQUIRE) \
+  /home/nicholaspucharelli/Unicamp/lab5/linux/include/linux/context_tracking_irq.h \
+    $(wildcard include/config/CONTEXT_TRACKING_IDLE) \
+  /home/nicholaspucharelli/Unicamp/lab5/linux/include/linux/rcutree.h \
   /home/nicholaspucharelli/Unicamp/lab5/linux/include/linux/maple_tree.h \
     $(wildcard include/config/MAPLE_RCU_DISABLED) \
     $(wildcard include/config/DEBUG_MAPLE_TREE) \
@@ -756,17 +780,6 @@ deps_lab5_char.o := \
     $(wildcard include/config/NO_HZ_COMMON) \
   /home/nicholaspucharelli/Unicamp/lab5/linux/include/linux/ktime.h \
   /home/nicholaspucharelli/Unicamp/lab5/linux/include/linux/jiffies.h \
-  /home/nicholaspucharelli/Unicamp/lab5/linux/include/linux/time.h \
-  /home/nicholaspucharelli/Unicamp/lab5/linux/include/linux/time32.h \
-  /home/nicholaspucharelli/Unicamp/lab5/linux/include/linux/timex.h \
-  /home/nicholaspucharelli/Unicamp/lab5/linux/include/uapi/linux/timex.h \
-  /home/nicholaspucharelli/Unicamp/lab5/linux/arch/x86/include/asm/timex.h \
-  /home/nicholaspucharelli/Unicamp/lab5/linux/arch/x86/include/asm/tsc.h \
-  /home/nicholaspucharelli/Unicamp/lab5/linux/arch/x86/include/asm/msr.h \
-  /home/nicholaspucharelli/Unicamp/lab5/linux/arch/x86/include/uapi/asm/msr.h \
-  /home/nicholaspucharelli/Unicamp/lab5/linux/arch/x86/include/asm/shared/msr.h \
-  /home/nicholaspucharelli/Unicamp/lab5/linux/include/vdso/time32.h \
-  /home/nicholaspucharelli/Unicamp/lab5/linux/include/vdso/time.h \
   /home/nicholaspucharelli/Unicamp/lab5/linux/include/vdso/jiffies.h \
   /home/nicholaspucharelli/Unicamp/lab5/linux/include/generated/timeconst.h \
   /home/nicholaspucharelli/Unicamp/lab5/linux/include/vdso/ktime.h \
@@ -779,7 +792,6 @@ deps_lab5_char.o := \
     $(wildcard include/config/DEBUG_OBJECTS_FREE) \
   /home/nicholaspucharelli/Unicamp/lab5/linux/arch/x86/include/asm/uprobes.h \
   /home/nicholaspucharelli/Unicamp/lab5/linux/include/linux/notifier.h \
-    $(wildcard include/config/TREE_SRCU) \
   /home/nicholaspucharelli/Unicamp/lab5/linux/include/linux/srcu.h \
     $(wildcard include/config/TINY_SRCU) \
     $(wildcard include/config/NEED_SRCU_NMI_SAFE) \
@@ -829,77 +841,6 @@ deps_lab5_char.o := \
   /home/nicholaspucharelli/Unicamp/lab5/linux/include/asm-generic/topology.h \
   /home/nicholaspucharelli/Unicamp/lab5/linux/include/linux/cpu_smt.h \
     $(wildcard include/config/HOTPLUG_SMT) \
-  /home/nicholaspucharelli/Unicamp/lab5/linux/include/linux/sched/mm.h \
-    $(wildcard include/config/MMU_LAZY_TLB_REFCOUNT) \
-    $(wildcard include/config/ARCH_HAS_MEMBARRIER_CALLBACKS) \
-    $(wildcard include/config/ARCH_HAS_SYNC_CORE_BEFORE_USERMODE) \
-  /home/nicholaspucharelli/Unicamp/lab5/linux/include/linux/sync_core.h \
-    $(wildcard include/config/ARCH_HAS_PREPARE_SYNC_CORE_CMD) \
-  /home/nicholaspucharelli/Unicamp/lab5/linux/arch/x86/include/asm/sync_core.h \
-  /home/nicholaspucharelli/Unicamp/lab5/linux/include/linux/sched/coredump.h \
-  /home/nicholaspucharelli/Unicamp/lab5/linux/include/linux/uidgid.h \
-    $(wildcard include/config/MULTIUSER) \
-    $(wildcard include/config/USER_NS) \
-  /home/nicholaspucharelli/Unicamp/lab5/linux/include/linux/highuid.h \
-  /home/nicholaspucharelli/Unicamp/lab5/linux/include/linux/kobject_ns.h \
-  /home/nicholaspucharelli/Unicamp/lab5/linux/include/linux/stat.h \
-  /home/nicholaspucharelli/Unicamp/lab5/linux/arch/x86/include/uapi/asm/stat.h \
-  /home/nicholaspucharelli/Unicamp/lab5/linux/include/uapi/linux/stat.h \
-  /home/nicholaspucharelli/Unicamp/lab5/linux/include/linux/kdev_t.h \
-  /home/nicholaspucharelli/Unicamp/lab5/linux/include/uapi/linux/kdev_t.h \
-  /home/nicholaspucharelli/Unicamp/lab5/linux/include/linux/device.h \
-    $(wildcard include/config/GENERIC_MSI_IRQ) \
-    $(wildcard include/config/ENERGY_MODEL) \
-    $(wildcard include/config/PINCTRL) \
-    $(wildcard include/config/ARCH_HAS_DMA_OPS) \
-    $(wildcard include/config/DMA_DECLARE_COHERENT) \
-    $(wildcard include/config/DMA_CMA) \
-    $(wildcard include/config/SWIOTLB) \
-    $(wildcard include/config/SWIOTLB_DYNAMIC) \
-    $(wildcard include/config/PM) \
-    $(wildcard include/config/PM_SLEEP) \
-    $(wildcard include/config/OF) \
-    $(wildcard include/config/DEVTMPFS) \
-  /home/nicholaspucharelli/Unicamp/lab5/linux/include/linux/dev_printk.h \
-  /home/nicholaspucharelli/Unicamp/lab5/linux/include/linux/ratelimit.h \
-  /home/nicholaspucharelli/Unicamp/lab5/linux/include/linux/energy_model.h \
-  /home/nicholaspucharelli/Unicamp/lab5/linux/include/linux/sched/cpufreq.h \
-    $(wildcard include/config/CPU_FREQ) \
-  /home/nicholaspucharelli/Unicamp/lab5/linux/include/linux/sched/topology.h \
-    $(wildcard include/config/SCHED_CLUSTER) \
-    $(wildcard include/config/SCHED_MC) \
-    $(wildcard include/config/CPU_FREQ_GOV_SCHEDUTIL) \
-  /home/nicholaspucharelli/Unicamp/lab5/linux/include/linux/sched/idle.h \
-  /home/nicholaspucharelli/Unicamp/lab5/linux/include/linux/sched/sd_flags.h \
-  /home/nicholaspucharelli/Unicamp/lab5/linux/include/linux/ioport.h \
-  /home/nicholaspucharelli/Unicamp/lab5/linux/include/linux/klist.h \
-  /home/nicholaspucharelli/Unicamp/lab5/linux/include/linux/pm.h \
-    $(wildcard include/config/VT_CONSOLE_SLEEP) \
-    $(wildcard include/config/CXL_SUSPEND) \
-    $(wildcard include/config/PM_CLK) \
-    $(wildcard include/config/PM_GENERIC_DOMAINS) \
-  /home/nicholaspucharelli/Unicamp/lab5/linux/include/linux/device/bus.h \
-    $(wildcard include/config/ACPI) \
-  /home/nicholaspucharelli/Unicamp/lab5/linux/include/linux/device/class.h \
-  /home/nicholaspucharelli/Unicamp/lab5/linux/include/linux/device/devres.h \
-    $(wildcard include/config/HAS_IOMEM) \
-  /home/nicholaspucharelli/Unicamp/lab5/linux/include/linux/device/driver.h \
-  /home/nicholaspucharelli/Unicamp/lab5/linux/include/linux/module.h \
-    $(wildcard include/config/MODULES_TREE_LOOKUP) \
-    $(wildcard include/config/STACKTRACE_BUILD_ID) \
-    $(wildcard include/config/ARCH_USES_CFI_TRAPS) \
-    $(wildcard include/config/MODULE_SIG) \
-    $(wildcard include/config/KALLSYMS) \
-    $(wildcard include/config/BPF_EVENTS) \
-    $(wildcard include/config/DEBUG_INFO_BTF_MODULES) \
-    $(wildcard include/config/EVENT_TRACING) \
-    $(wildcard include/config/MODULE_UNLOAD) \
-    $(wildcard include/config/CONSTRUCTORS) \
-    $(wildcard include/config/FUNCTION_ERROR_INJECTION) \
-  /home/nicholaspucharelli/Unicamp/lab5/linux/include/linux/buildid.h \
-    $(wildcard include/config/VMCORE_INFO) \
-  /home/nicholaspucharelli/Unicamp/lab5/linux/include/linux/kmod.h \
-  /home/nicholaspucharelli/Unicamp/lab5/linux/include/linux/umh.h \
   /home/nicholaspucharelli/Unicamp/lab5/linux/include/linux/sysctl.h \
     $(wildcard include/config/SYSCTL) \
   /home/nicholaspucharelli/Unicamp/lab5/linux/include/uapi/linux/sysctl.h \
@@ -959,6 +900,16 @@ deps_lab5_char.o := \
   /home/nicholaspucharelli/Unicamp/lab5/linux/include/linux/list_lru.h \
   /home/nicholaspucharelli/Unicamp/lab5/linux/include/linux/shrinker.h \
     $(wildcard include/config/SHRINKER_DEBUG) \
+  /home/nicholaspucharelli/Unicamp/lab5/linux/include/linux/xarray.h \
+    $(wildcard include/config/XARRAY_MULTI) \
+  /home/nicholaspucharelli/Unicamp/lab5/linux/include/linux/sched/mm.h \
+    $(wildcard include/config/MMU_LAZY_TLB_REFCOUNT) \
+    $(wildcard include/config/ARCH_HAS_MEMBARRIER_CALLBACKS) \
+    $(wildcard include/config/ARCH_HAS_SYNC_CORE_BEFORE_USERMODE) \
+  /home/nicholaspucharelli/Unicamp/lab5/linux/include/linux/sync_core.h \
+    $(wildcard include/config/ARCH_HAS_PREPARE_SYNC_CORE_CMD) \
+  /home/nicholaspucharelli/Unicamp/lab5/linux/arch/x86/include/asm/sync_core.h \
+  /home/nicholaspucharelli/Unicamp/lab5/linux/include/linux/sched/coredump.h \
   /home/nicholaspucharelli/Unicamp/lab5/linux/include/linux/list_bl.h \
   /home/nicholaspucharelli/Unicamp/lab5/linux/include/linux/bit_spinlock.h \
   /home/nicholaspucharelli/Unicamp/lab5/linux/include/linux/uuid.h \
@@ -1037,6 +988,7 @@ deps_lab5_char.o := \
     $(wildcard include/config/VFIO_PCI_ZDEV_KVM) \
     $(wildcard include/config/IOMMUFD) \
     $(wildcard include/config/WATCH_QUEUE) \
+  /home/nicholaspucharelli/Unicamp/lab5/linux/include/linux/ratelimit.h \
   /home/nicholaspucharelli/Unicamp/lab5/linux/include/linux/pid.h \
   /home/nicholaspucharelli/Unicamp/lab5/linux/include/linux/posix-timers.h \
   /home/nicholaspucharelli/Unicamp/lab5/linux/include/linux/alarmtimer.h \
@@ -1071,7 +1023,10 @@ deps_lab5_char.o := \
   /home/nicholaspucharelli/Unicamp/lab5/linux/include/linux/vfsdebug.h \
     $(wildcard include/config/DEBUG_VFS) \
   /home/nicholaspucharelli/Unicamp/lab5/linux/include/linux/wait_bit.h \
+  /home/nicholaspucharelli/Unicamp/lab5/linux/include/linux/kdev_t.h \
+  /home/nicholaspucharelli/Unicamp/lab5/linux/include/uapi/linux/kdev_t.h \
   /home/nicholaspucharelli/Unicamp/lab5/linux/include/linux/path.h \
+  /home/nicholaspucharelli/Unicamp/lab5/linux/include/linux/radix-tree.h \
   /home/nicholaspucharelli/Unicamp/lab5/linux/include/linux/semaphore.h \
   /home/nicholaspucharelli/Unicamp/lab5/linux/include/linux/fcntl.h \
     $(wildcard include/config/ARCH_32BIT_OFF_T) \
@@ -1128,6 +1083,14 @@ deps_lab5_char.o := \
   /home/nicholaspucharelli/Unicamp/lab5/linux/arch/x86/include/asm/vdso.h \
   /home/nicholaspucharelli/Unicamp/lab5/linux/include/uapi/linux/elf.h \
   /home/nicholaspucharelli/Unicamp/lab5/linux/include/uapi/linux/elf-em.h \
+  /home/nicholaspucharelli/Unicamp/lab5/linux/include/linux/kobject.h \
+    $(wildcard include/config/UEVENT_HELPER) \
+    $(wildcard include/config/DEBUG_KOBJECT_RELEASE) \
+  /home/nicholaspucharelli/Unicamp/lab5/linux/include/linux/sysfs.h \
+  /home/nicholaspucharelli/Unicamp/lab5/linux/include/linux/kernfs.h \
+    $(wildcard include/config/KERNFS) \
+  /home/nicholaspucharelli/Unicamp/lab5/linux/include/linux/idr.h \
+  /home/nicholaspucharelli/Unicamp/lab5/linux/include/linux/kobject_ns.h \
   /home/nicholaspucharelli/Unicamp/lab5/linux/include/linux/moduleparam.h \
     $(wildcard include/config/ALPHA) \
     $(wildcard include/config/PPC64) \
@@ -1139,12 +1102,11 @@ deps_lab5_char.o := \
     $(wildcard include/config/UNWINDER_ORC) \
   /home/nicholaspucharelli/Unicamp/lab5/linux/include/asm-generic/module.h \
     $(wildcard include/config/HAVE_MOD_ARCH_SPECIFIC) \
-  /home/nicholaspucharelli/Unicamp/lab5/linux/arch/x86/include/generated/asm/device.h \
-  /home/nicholaspucharelli/Unicamp/lab5/linux/include/asm-generic/device.h \
-  /home/nicholaspucharelli/Unicamp/lab5/linux/include/linux/pm_wakeup.h \
+  /home/nicholaspucharelli/Unicamp/lab5/linux/include/linux/export-internal.h \
+    $(wildcard include/config/PARISC) \
 
-lab5_char.o: $(deps_lab5_char.o)
+lab06_char.mod.o: $(deps_lab06_char.mod.o)
 
-$(deps_lab5_char.o):
+$(deps_lab06_char.mod.o):
 
-lab5_char.o: $(wildcard /home/nicholaspucharelli/Unicamp/lab5/linux/tools/objtool/objtool)
+lab06_char.mod.o: $(wildcard /home/nicholaspucharelli/Unicamp/lab5/linux/tools/objtool/objtool)

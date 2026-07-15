@@ -1,2 +1,3 @@
-lab5_char.o
-lab5_cmd_char.o
+lab06_char.o
+lab06_cmd_char.o
+lab06_buffer.o

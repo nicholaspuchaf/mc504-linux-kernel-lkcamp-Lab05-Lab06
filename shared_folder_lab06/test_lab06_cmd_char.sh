@@ -2,8 +2,8 @@
 set -eu
 
 MODULE_DIR=${MODULE_DIR:-/mnt/host}
-MODULE=${MODULE:-lab5_char}
-DEVICE=${DEVICE:-/dev/lab5_char}
+MODULE=${MODULE:-lab06_cmd_char}
+DEVICE=${DEVICE:-/dev/lab06_cmd_char}
 
 cleanup()
 {
@@ -60,10 +60,29 @@ expect_state 1 "estado apos escrever 1"
 printf 0 > "$DEVICE"
 expect_state 0 "estado apos escrever 0"
 
+printf on > "$DEVICE"
+expect_state 1 "estado apos comando on"
+
+printf toggle > "$DEVICE"
+expect_state 0 "estado apos primeiro toggle"
+
+printf toggle > "$DEVICE"
+expect_state 1 "estado apos segundo toggle"
+
+echo off > "$DEVICE"
+expect_state 0 "estado apos comando off com newline"
+
+printf on > "$DEVICE"
+expect_state 1 "estado antes de reset"
+
+printf reset > "$DEVICE"
+expect_state 0 "estado apos reset"
+
 if printf x > "$DEVICE" 2>/dev/null; then
 	fail "escrita invalida deveria falhar com EINVAL"
 fi
 
 echo "resultado=ok"
+echo "module=$MODULE"
 echo "device=$DEVICE"
 echo "major=$major"

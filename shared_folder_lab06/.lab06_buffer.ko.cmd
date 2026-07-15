@@ -1,0 +1,1 @@
+savedcmd_lab06_buffer.ko := ld -r -m elf_x86_64 --fatal-warnings -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T /home/nicholaspucharelli/Unicamp/lab5/linux/scripts/module.lds -o lab06_buffer.ko lab06_buffer.o lab06_buffer.mod.o .module-common.o

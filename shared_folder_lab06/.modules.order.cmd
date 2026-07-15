@@ -1,1 +1,1 @@
-savedcmd_modules.order := {   echo lab5_char.o;   echo lab5_cmd_char.o; :; } > modules.order
+savedcmd_modules.order := {   echo lab06_char.o;   echo lab06_cmd_char.o;   echo lab06_buffer.o; :; } > modules.order
